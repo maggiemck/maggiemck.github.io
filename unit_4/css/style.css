@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Solway');
+
+h1{
+	color: #935430;
+	font-family: "Solway", serif;
+	font-weight: bolder;
+	font-size: 50px;
+	text-align: center;
+}
+body{
+	color: #000;
+	background-color: #EFEDE7;
+	font-family: "Montserrat", sans-serif;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 50px;
+	margin-bottom: 0px;
+	line-height: 2em;
+}
+
+h2{
+	font-weight: bold;
+}
+
+h3{
+	text-align: center;
+	background-color: #E3B9A4;
+	margin-right: -100px;
+	margin-left: -100px;
+	margin-bottom: -80px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-weight: 800;
+}
+
+/* unvisited link */
+a:link {
+  color: #983D2C;
+}
+
+/* mouse over link */
+a:hover {
+  color: #E86B27;
+}
+
+.center{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#slogan {
+	font-style: italic;
+	text-align: center;
+	font-size: 20px;
+}
+

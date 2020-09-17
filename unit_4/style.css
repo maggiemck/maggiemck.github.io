@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab");
+@import url("https://fonts.googleapis.com/css2?family=Rozha+One");
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+h1{
+	color: #935430;
+	font-family: "Raleway", sans-serif;
+	font-size: 50px;
+	text-align: center;
+}
+body{
+	color: #000;
+	background-color: #EFEDE7;
+	font-family: Verdana, sans-serif;
+	margin: 80px;
+}
+
+#slogan {
+	font-style: italic;
+	text-align: center;
+	font-size: 18px;
+}
