@@ -33,9 +33,6 @@ body{
 
 article{
 	margin: 50px 100px 0px 100px;
-	background-color: #E89C6C;
-	border: 1px black solid;
-	padding: 20px;
 }
 
 h2{
@@ -44,9 +41,8 @@ h2{
 
 footer{
 	text-align: center;
-	background-color: #FF957E;
-	border: 1px black solid;
-	padding: 20px;
+	background-color: #DCD2C8;
+	padding: 2em 0;
 	font-weight: 800;
 	overflow: hidden;
 }
@@ -72,35 +68,8 @@ a:hover {
 .picture{
 	display: block;
 	margin-left: 500px;
-	padding: 2em;
+	padding: 2em 0;
 }
 
-header {
-	background-color: #FFED74;
-	border: 1px black solid;
-	padding: 20px;
-}
 
-nav {
-	background-color: #E8C66A;
-	border: 1px black solid;
-	padding: 20px;
-}
 
-aside {
-	background-color: #FFC675;
-	border: 1px black solid;
-	padding: 20px;
-}
-
-div {
-	background-color: #FFE2B8
-	border: 1px black solid;
-	padding: 20px;
-}
-
-section {
-	background-color: #FFE2B8
-	border: 1px black solid;
-	padding: 20px;	
-}
