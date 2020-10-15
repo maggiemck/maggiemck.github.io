@@ -9,8 +9,15 @@ h1{
 	text-align: center;
 }
 
+h1 + img {
+	display: block;
+	margin: auto;
+	width: 45%;
+	padding: 20px 0;
+}
+
 nav {
-	background-color: #C2AEAB; 
+	background-color: #A69592; 
 	list-style-type: none;
 	padding-top: .5em;
 	margin: 0;
@@ -28,7 +35,7 @@ a:link {
   color: #F5F1EE;
   text-decoration: none;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 a:hover {
@@ -47,24 +54,14 @@ h2 {
 	font-weight: bold;
 }
 
+section {
+	padding: 20px;
+}
+
 footer {
 	text-align: center;
-	background-color: #C2AEAB;
-	font-weight: 800;
+	background-color: #A69592;
 	overflow: hidden;
-	margin: 0em -100em -100em -100em;
-}
-
-.center {
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	width: 45%;
-	padding: 20px 0;
-}
-
-#two_column {
-	padding: 20px;
 }
 
 #left {
