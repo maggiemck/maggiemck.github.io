@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat');
 @import url('https://fonts.googleapis.com/css2?family=Solway');
+@import url('https://fonts.googleapis.com/css2?family=Prata');
 
 body{
 	background-color: #F5F1EE;
@@ -9,20 +10,27 @@ body{
 	font-size: 16px;
 }
 
-h1{
-	color: #935430;
-	font-family: "Solway", serif;
-	font-weight: bolder;
-	font-size: 3.5em;
-	text-align: center;
-	padding: 1% 0
+div {
+	padding: 2%;
 }
 
-h1 + img {
+footer {
+	text-align: center;
+	background-color: #A69592;
+	overflow: hidden;
+}
+
+article {
+	margin: 0 2%;
+	float:left;
+	width: 44%;
+}
+
+section {
+	float: right;
+	padding: 3%;
 	display: block;
-	margin: auto;
-	padding: 1% 0;
-	width: 50%;
+	width: 40%;
 }
 
 nav {
@@ -47,6 +55,11 @@ nav a:hover {
 	background-color: #A56C39;
 }
 
+nav a:visited {
+	color: #F5F1EE;
+}
+
+
 a:link {
 	color: #F5F1EE;
 	text-decoration: none;
@@ -57,31 +70,24 @@ a:hover {
 	color: #A56C39;
 }
 
+h1{
+	color: #935430;
+	font-family: "Prata", serif;
+	letter-spacing: .1em;
+	font-size: 3.5em;
+	text-align: center;
+	padding: 1% 0
+}
+
+h1 + img {
+	display: block;
+	margin: auto;
+	padding: 1% 0;
+	width: 50%;
+}
+
 h2 {
 	font-weight: bolder;
-}
-
-div {
-	padding: 2%;
-}
-
-footer {
-	text-align: center;
-	background-color: #A69592;
-	overflow: hidden;
-}
-
-article {
-	margin: 0 2%;
-	float:left;
-	width: 44%;
-}
-
-section {
-	float: right;
-	padding: 3%;
-	display: block;
-	width: 40%;
 }
 
 .pets {
