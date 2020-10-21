@@ -214,6 +214,10 @@ button:hover {
 		margin: 2% 35%;
 		padding-left: .8em;
 	}
+
+	footer {
+		padding-bottom: 2%;
+	}
 }
 
 
