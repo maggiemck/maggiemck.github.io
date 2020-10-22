@@ -114,6 +114,16 @@ button:hover {
 	background-color: #A56C39
 }
 
+label {
+	background-color: #A69592; 
+	text-align: center;
+	color: #F5F1EE;
+	text-decoration: none;
+	font-size: 1.2em;
+	padding: 3%;
+	display: none;
+}
+
 #content {
 	padding: 2%;
 }
@@ -147,7 +157,7 @@ button:hover {
 	height: 0;
 }
 
-#mobile {
+#toggle {
 	display: none;
 }
 
@@ -166,21 +176,6 @@ button:hover {
 @media only screen and (max-width: 900px) {
 	h1 {
 		font-size: 2.5em;
-	}
-
-	#mobile {
-		display: block;
-	}
-
-	nav a{
-		float: none;
-		width: auto;
-		padding: 1em 0;
-		display: none;
-	}
-
-	nav:hover a {
-		display: block;
 	}
 
 	section {
@@ -206,6 +201,27 @@ button:hover {
 	button {
 		margin: 2% 41%;
 		padding: .8em;
+	}
+
+	label {
+		display: block;
+	}
+
+	#toggle:checked + nav {
+		display: block;
+	}
+	nav {
+		display: none;
+	}
+
+	nav a{
+		float: none;
+		width: auto;
+		padding: 1em 0;
+	}
+
+	nav:hover a {
+		display: block;
 	}
 }
 
